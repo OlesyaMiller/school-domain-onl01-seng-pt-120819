@@ -23,7 +23,7 @@ class School
   
   def sort 
     @roster.keys.sort 
-    @roster.r.map do |key, value|
+    @roster.map do |key, value|
       value.sort 
     end
   end
