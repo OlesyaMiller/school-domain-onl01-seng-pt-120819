@@ -25,6 +25,7 @@ class School
     @roster.each do |key, value|
       #value.sort!
       value = value.sort 
+      value 
     end
   end
 end
